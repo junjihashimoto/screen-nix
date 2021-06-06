@@ -11,3 +11,9 @@ git clone https://github.com/junjihashimoto/screen-nix.git
 nix build
 nix profile install
 ```
+
+Or just run the following command.
+
+```shell
+nix profile install github:junjihashimoto/screen-nix
+```
