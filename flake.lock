@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1620055814,
+        "narHash": "sha256-8LEHoYSJiL901bTMVatq+rf8y7QtWuZhwwpKE2fyaRY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1db42b7fe3878f3f5f7a4f2dc210772fd080e205",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-20.03",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "sixel-gnuscreen": "sixel-gnuscreen"
+      }
+    },
+    "sixel-gnuscreen": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1414269170,
+        "narHash": "sha256-dn3BLf4cW5G2Z01H5Xjtukeu9NYoCu5MTXGMrf5A45o=",
+        "owner": "csdvrx",
+        "repo": "sixel-gnuscreen",
+        "rev": "c4e3c1cb3f31faaa37e48d59d78b27d2bd70c1a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "csdvrx",
+        "ref": "sixel",
+        "repo": "sixel-gnuscreen",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
